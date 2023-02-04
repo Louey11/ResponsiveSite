@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.gif">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">adventure</h1>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="#events">events</a></li>
+            <li><a href="#explore">explore</a></li>
+            <li><a href="#tours">tours</a></li>
+            <li><a href="#" class="ctn">contact</a></li>
+        </ul>
+        <img src="/img/bar.png" alt="menu-bar" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            
+            <h1>explore the colorfull world</h1>
+            
+            <div class="line"></div>
+            
+            <h2>wonderfull gift</h2>
+            
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </header>
+    <body>
+
+    <script>
+            const menubtn= document.querySelector('.menu-btn');
+            const navlinks= document.querySelector('.nav-links');
+            menubtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu');
+            })
+        </script>
+    </body>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
